@@ -29,7 +29,7 @@ My research interest includes computer graphics and 3D vision.
 
 <p>
 	<div style="width:20%;float:left">
-        <img src="../images/ZJU.png" style="border:2vw solid transparent;">
+        <img src="../images/ZJU.png" style="border:1vw solid transparent;">
 	</div>
 	<div style="width:80%;float:left">
         <p>
@@ -53,20 +53,6 @@ My research interest includes computer graphics and 3D vision.
         </p>
 	</div>
  </p>
-
-
-
-
-
-
-
-
-
-
-
-aaa
-
-
 
 # 💻 Internships
 
