@@ -27,14 +27,11 @@ My research interest includes computer graphics and 3D vision.
 
 # 📖 Educations
 
-<style>
-    ul > li {
-    margin-left: 10px;
-}
-</style>
 <p>
-    <img src="images/ZJU.png" width="20%" height="20%" style="float:left; border:2vw solid transparent;">
-    <span style="text-align:right;">
+	<div style="width:20%;float:left">
+        <img src="../images/ZJU.png" style="border:2vw solid transparent;">
+	</div>
+	<div style="width:80%;float:left">
         <p>
             <b>Zhejiang University</b>, Hangzhou, China
   	        <span style="float:right;">
@@ -54,26 +51,22 @@ My research interest includes computer graphics and 3D vision.
                 <li><b>Thesis</b>: Real-Time SLAM System based on ARKit Framework <i>(Excellent Graduation Thesis)</i></li>
             </ul>
         </p>
-    </span>
+	</div>
  </p>
 
 
 
 
 
-- <p style="text-align:left;">
-        <b style="color:black;">Zhejiang University</b>, Hangzhou, China
-    	<span style="float:right;">
-            <i>2019.9 - 2023.6(expected)</i>
-    	</span>
-  </p>
 
-  - 
-  - **Honors degree** from Chu Kochen Honors College
-  - **Major**: Computer Science and Technology
-  - **Overall GPA**: &nbsp;&nbsp;&nbsp;94.6/100&nbsp;&nbsp;&nbsp;3.98/4
-  - **Ranking**: 1/125 in the first three years
-  - **Thesis**: Real-time SLAM system based on ARKit Framework *(Excellent Graduation Thesis)*
+
+
+
+
+
+aaa
+
+
 
 # 💻 Internships
 
