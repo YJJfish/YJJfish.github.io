@@ -27,7 +27,7 @@ My research interest includes computer graphics and 3D vision.
 
 # 📖 Educations
 
-<p>
+<div>
 	<div style="width:20%;float:left">
         <img src="../images/ZJU.png" style="border:1vw solid transparent;">
 	</div>
@@ -52,15 +52,51 @@ My research interest includes computer graphics and 3D vision.
             </ul>
         </p>
 	</div>
- </p>
+ </div>
 
 # 💻 Internships
 
-- 
+<div>
+	<div style="width:20%;float:left">
+        <img src="../images/MSRA.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:80%;float:left">
+        <p>
+            <b>Microsoft Research Asia</b>, Beijing, China
+  	        <span style="float:right;">
+                <i>2022.3 - 2023.6(expected)</i>
+  	        </span>
+        </p>
+        <p>
+            <ul style="list-style-type:circle;">
+                <li><b>Position</b>: Research Intern of <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/">Internet Graphics</a> group</li>
+                <li><b>Advisor</b>: Dr. <a href="https://yizhongzhang1989.github.io/">Yizhong Zhang</a>, Dr. <a href="https://xueyuhanlang.github.io/">Yang Liu</a></li>
+            </ul>
+        </p>
+	</div>
+ </div>
 
 # 📝 Projects
 
-- 
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/Real-Time_SLAM_System_based_on_ARKit_Framework.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            Real-Time SLAM System based on ARKit Framework
+  	        <span style="float:right;">
+                <i>2022.3 - 2022.10</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Research Project at Microsoft Research Asia</i>
+        </p>
+        <p>
+            Description.
+        </p>
+	</div>
+ </div>
 
 # 🎖 Honors and Awards
 - 
