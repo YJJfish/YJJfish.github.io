@@ -123,7 +123,7 @@ My research interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            Description.
+            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. We get the RGB and depth data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. Our system searches for coplanar and parallel planes and uses them to optimize camera poses. Meanwhile, our system uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Also, our system exploits user's interaction to improve the precision of loop detection. Experiments show that our method improves the performance of camera tracking and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
         </p>
     </div>
 </div>
