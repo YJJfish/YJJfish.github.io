@@ -27,6 +27,11 @@ My research interest includes computer graphics and 3D vision.
 
 # 📖 Educations
 
+<style>
+    ul > li {
+    margin-left: 10px;
+}
+</style>
 <p>
     <img src="images/ZJU.png" width="20%" height="20%" style="float:left; border:2vw solid transparent;">
     <span style="text-align:right;">
@@ -37,9 +42,9 @@ My research interest includes computer graphics and 3D vision.
   	        </span>
         </p>
         <p>
-            <ul style="list-style-type:circle;padding-left:10px;">
+            <ul style="list-style-type:circle;">
                 <li><b>Degree</b>: Bachelor of Engineering
-                    <ul style="list-style-type:square;padding-left:10px;">
+                    <ul style="list-style-type:square;">
                 		<li><b>Honors degree</b> from Chu Kochen Honors College</li>
                     </ul>
                 </li>
