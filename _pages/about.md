@@ -37,9 +37,9 @@ My research interest includes computer graphics and 3D vision.
   	        </span>
         </p>
         <p>
-            <ul style="list-style-type:circle">
+            <ul style="list-style-type:circle;padding-left:10px;">
                 <li><b>Degree</b>: Bachelor of Engineering
-                    <ul style="list-style-type:square;margin:10px;">
+                    <ul style="list-style-type:square;padding-left:10px;">
                 		<li><b>Honors degree</b> from Chu Kochen Honors College</li>
                     </ul>
                 </li>
