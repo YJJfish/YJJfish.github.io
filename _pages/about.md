@@ -28,32 +28,26 @@ My research interest includes computer graphics and 3D vision.
 # 📖 Educations
 
 <p>
-    <img src="../images/ZJU.png" width="20%" height="20%" style="float:left; border:2vw solid transparent;">
+    <img src="images/ZJU.png" width="20%" height="20%" style="float:left; border:2vw solid transparent;">
     <span style="text-align:right;">
         <p>
-            <b style="color:black;">Zhejiang University</b>, Hangzhou, China
+            <b>Zhejiang University</b>, Hangzhou, China
   	        <span style="float:right;">
                 <i>2019.9 - 2023.6(expected)</i>
   	        </span>
         </p>
-        <div markdown="1">
-            - **Honors degree** from Chu Kochen Honors College
-- **Major**: Computer Science and Technology
-- **Overall GPA**: &nbsp;&nbsp;&nbsp;94.6/100&nbsp;&nbsp;&nbsp;3.98/4
-- **Ranking**: 1/125 in the first three years
-- **Thesis**: Real-time SLAM system based on ARKit Framework *(Excellent Graduation Thesis)*
-        </div>
-        <p style="text-align:left;">
-            aaaaa
-        </p>
-        <p style="text-align:left;">
-            aaaaa
-        </p>
-        <p style="text-align:left;">
-            aaaaa
-        </p>
         <p>
-            aaaaa
+            <ul style="list-style-type:circle">
+                <li><b>Degree</b>: Bachelor of Engineering
+                    <ul style="list-style-type:square;margin:10px;">
+                		<li><b>Honors degree</b> from Chu Kochen Honors College</li>
+                    </ul>
+                </li>
+                <li><b>Major</b>: Computer Science and Technology</li>
+                <li><b>Overall GPA</b>: &nbsp;&nbsp;&nbsp;94.6/100&nbsp;&nbsp;&nbsp;3.98/4</li>
+                <li><b>Ranking</b>: 1/125 in the first three years</li>
+                <li><b>Thesis</b>: Real-Time SLAM System based on ARKit Framework <i>(Excellent Graduation Thesis)</i></li>
+            </ul>
         </p>
     </span>
  </p>
