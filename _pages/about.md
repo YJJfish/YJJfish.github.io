@@ -68,7 +68,7 @@ My research interest includes computer graphics and 3D vision.
         <p>
             <b>Microsoft Research Asia</b>, Beijing, China
   	        <span style="float:right;">
-                <i>2022.3 - 2023.6(expected)</i>
+                <i>2022.3 - 2023.6</i>
   	        </span>
         </p>
         <p>
@@ -87,11 +87,11 @@ My research interest includes computer graphics and 3D vision.
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
-        <img src="../images/Real-Time_SLAM_System_based_on_ARKit_Framework.png" style="border:1vw solid transparent;">
+        <img src="../images/Anti_Blur_Fusion.png" style="border:1vw solid transparent;">
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Anti-aliasing Depth Fusion based on Vision Cone Model</b>
+            <b>Anti-Blur Depth Fusion based on Vision Cone Model</b>
   	        <span style="float:right;">
                 <i>2022.11 - 2023.6</i>
   	        </span>
@@ -100,13 +100,14 @@ My research interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            Description.
+            The fusion procedure used by KinectFusion projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. We proposed a method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value, while our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We have tested our method on both SDF voxel and mesh representations of the global model, and we believe it can also be applied to other model representation methods.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
