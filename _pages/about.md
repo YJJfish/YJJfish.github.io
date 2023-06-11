@@ -180,6 +180,54 @@ My research interest includes computer graphics and 3D vision.
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
 
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/IAVIProject.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>Voxel Reconstruction of Opaque Objects <a href="https://github.com/YJJfish/Voxel-Reconstruction">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2021.9 - 2021.10</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Intelligent Acquisition of Visual Information</i>
+        </p>
+        <p>
+            We proposed a system based on voxel carving and ray casting algorithm to reconstruct the 3D shapes of opaque objects. We use a projector to project structured light on the object and a camera to capture photos simultaneously. These photos are then used to extract silhouettes and estimate depth images of the object. We use silhouettes to carve the voxel model of the object, and use depth images to refine it. Finally, ray casting algorithm is used to color the reconstructed model.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/DBProject.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>MiniSQL <a href="https://github.com/YJJfish/MiniSQL">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2021.5 - 2021.6</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Database System</i>
+        </p>
+        <p>
+            We developed a Database Management System called MiniSQL. It allows users to use SQL statements to 1. create and delete tables; 2. create and delete indices; 3. insert, delete, and select records in the database. The whole project is divided into 7 modules: GUI, interpreter, API, Record Manager, Index Manager, Catalog Manager, and Buffer Manager.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
 # 🎖 Honors and Awards
 
 - 
