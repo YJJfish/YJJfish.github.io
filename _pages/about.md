@@ -230,4 +230,12 @@ My research interest includes computer graphics and 3D vision.
 
 # 🎖 Honors and Awards
 
-- 
+- Pilot Scholarship of Chu Kochen Honors College *(Fall 2022)*
+- First-Class Scholarship of Zhejiang University *(Fall 2021)*
+
+# 🔧Skills
+
+- Language: C/C++, Python, Swift, Objective-C
+
+- Tools & Framework: OpenCV, OpenGL, CUDA, Eigen, PyTorch, NumPy
+
