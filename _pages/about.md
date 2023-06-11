@@ -106,6 +106,7 @@ My research interest includes computer graphics and 3D vision.
 </div>
 </div>
 <div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -129,6 +130,7 @@ My research interest includes computer graphics and 3D vision.
 </div>
 </div>
 <div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -152,6 +154,7 @@ My research interest includes computer graphics and 3D vision.
 </div>
 </div>
 <div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -175,6 +178,7 @@ My research interest includes computer graphics and 3D vision.
 </div>
 </div>
 <div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 # 🎖 Honors and Awards
 
