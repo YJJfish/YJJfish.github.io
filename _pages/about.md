@@ -123,7 +123,53 @@ My research interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. We get the RGB and depth data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. Our system searches for coplanar and parallel planes and uses them to optimize camera poses. Meanwhile, our system uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Also, our system exploits user's interaction to improve the precision of loop detection. Experiments show that our method improves the performance of camera tracking and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
+            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Also, it exploits user's interaction to improve the precision of loop detection. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/C-Compiler.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>C Compiler <a href="https://github.com/YJJfish/C-Compiler">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2022.4 - 2022.6</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Compiler Principle</i>
+        </p>
+        <p>
+            We developed a compiler that can compile a C-like language into binary codes. The project is divided into three parts: Lexer and parser, code generation, and AST (Abstract Syntax Tree) visualization. The lexer and parser are based on lex and yacc. They receive the string and build an AST; The code generation module is based on LLVM. It receives the AST and generate binary codes; And we use HTML to visualize the AST.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/CGProject.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>3D Game: Interstellar <a href="https://github.com/YJJfish/Interstellar">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2021.11 - 2021.12</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Computer Graphics</i>
+        </p>
+        <p>
+            We developed a 3D game based on OpenGL, where users can control a spaceship to travel in the universe, watch the view of space stations, planets and stars, and launch missiles to destory enemy spaceships. To make the visual effects more realistic, we applied several techniques, including specular mapping, normal mapping, light attenuation, and collision detection. We write our own programs for rendering and game logic, while the resource files (e.g. 3D models, textures) are from the game <a href="https://www.paradoxinteractive.com/games/stellaris/">Stellaris</a>.
         </p>
     </div>
 </div>
