@@ -30,6 +30,29 @@ My research interest includes computer graphics and 3D vision.
 <div style="width: 100%;">
 <div>
 	<div style="width:20%;float:left">
+        <img src="../images/CMU.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:80%;float:left">
+        <p>
+            <b>Carnegie Mellon University</b>, Pittsburgh, USA
+  	        <span style="float:right;">
+                <i>2023.9(expected) - 2024.12(expected)</i>
+  	        </span>
+        </p>
+        <p>
+            <ul style="list-style-type:circle;">
+                <li><b>Program</b>: Master of Science in Computer Vision</li>
+                <li><b>Department</b>: Robotics Institute, School of Computer Science</li>
+            </ul>
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+
+<div style="width: 100%;">
+<div>
+	<div style="width:20%;float:left">
         <img src="../images/ZJU.png" style="border:1vw solid transparent;">
 	</div>
 	<div style="width:80%;float:left">
