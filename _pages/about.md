@@ -235,7 +235,9 @@ My research interest includes computer graphics and 3D vision.
 
 # 🔧Skills
 
-- Language: C/C++, Python, Swift, Objective-C
+- **Programming Language**: C/C++, Python, Swift, Objective-C
 
-- Tools & Framework: OpenCV, OpenGL, CUDA, Eigen, PyTorch, NumPy
+- **Tools/Framework**: OpenCV, OpenGL, CUDA, Eigen, PyTorch, NumPy
+
+- **Language**: TOEFL iBT 109 (L28+R30+S26+W25), GRE 335+4.0 (V165+Q170+AW4.0)
 
