@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a senior student majoring in Computer Science and Technology at [Chu Kochen Honors College](http://ckc.zju.edu.cn/ckcen/main.htm), Zhejiang University, advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/). I am also working as a research intern at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/internet-graphics/), advised by Dr. [Yizhong Zhang](https://yizhongzhang1989.github.io/) and Dr. [Yang Liu](https://xueyuhanlang.github.io/).
+I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University. I obtained my bachelor's degree in Computer Science and Technology from [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/). I also worked as a research intern at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/internet-graphics/), advised by Dr. [Yizhong Zhang](https://yizhongzhang1989.github.io/) and Dr. [Yang Liu](https://xueyuhanlang.github.io/).
 
-My research interest includes computer graphics and 3D vision. 
+My interest includes computer graphics and 3D vision.
 
 
 # 🔥 News
-- *2023.03*: I have been admitted to the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University.
+- I am looking for a 2024 summer internship.
 
 # 📖 Educations
 
@@ -36,7 +36,7 @@ My research interest includes computer graphics and 3D vision.
         <p>
             <b>Carnegie Mellon University</b>, Pittsburgh, USA
   	        <span style="float:right;">
-                <i>2023.9(expected) - 2024.12(expected)</i>
+                <i>2023.9 - 2024.12(expected)</i>
   	        </span>
         </p>
         <p>
@@ -59,7 +59,7 @@ My research interest includes computer graphics and 3D vision.
         <p>
             <b>Zhejiang University</b>, Hangzhou, China
   	        <span style="float:right;">
-                <i>2019.9 - 2023.6(expected)</i>
+                <i>2019.9 - 2023.6</i>
   	        </span>
         </p>
         <p>
@@ -96,7 +96,7 @@ My research interest includes computer graphics and 3D vision.
         </p>
         <p>
             <ul style="list-style-type:circle;">
-                <li><b>Position</b>: Research Intern in <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/">Internet Graphics</a> group</li>
+                <li><b>Position</b>: Research Intern of <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/">Internet Graphics</a> group</li>
                 <li><b>Advisor</b>: Dr. <a href="https://yizhongzhang1989.github.io/">Yizhong Zhang</a>, Dr. <a href="https://xueyuhanlang.github.io/">Yang Liu</a></li>
             </ul>
         </p>
@@ -261,7 +261,7 @@ My research interest includes computer graphics and 3D vision.
 
 - **Programming Language**: C/C++, Python, Swift, Objective-C
 
-- **Tools/Framework**: OpenCV, OpenGL, CUDA, Eigen, PyTorch, NumPy
+- **Tool**: OpenCV, OpenGL, CUDA, PyTorch, NumPy, CMake, SQL, Ubuntu
 
 - **Language**: TOEFL iBT 109 (L28+R30+S26+W25), GRE 335+4.0 (V165+Q170+AW4.0)
 

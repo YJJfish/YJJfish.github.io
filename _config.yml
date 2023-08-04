@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jinjiang You (尤锦江)"
-description              : "Undergraduate student at Chu Kochen Honors College, Zhejiang University."
+description              : "Master student at Carnegie Mellon University."
 repository               : "YJJfish/YJJfish.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jinjiang You (尤锦江)"
   avatar           : "images/YJJ.jpg"
-  bio              : "Zhejiang University"
-  location         : "Hangzhou, China"
+  bio              : "Carnegie Mellon University"
+  location         : "Pittsburgh, Pennsylvania"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
