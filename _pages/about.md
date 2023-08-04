@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University. I obtained my bachelor's degree in Computer Science and Technology from [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/). I also worked as a research intern at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/internet-graphics/), advised by Dr. [Yizhong Zhang](https://yizhongzhang1989.github.io/) and Dr. [Yang Liu](https://xueyuhanlang.github.io/).
+I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University. I obtained my bachelor's degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/). I also worked as a research intern at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/internet-graphics/), advised by Dr. [Yizhong Zhang](https://yizhongzhang1989.github.io/) and Dr. [Yang Liu](https://xueyuhanlang.github.io/).
 
 My interest includes computer graphics and 3D vision.
 
