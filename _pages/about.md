@@ -71,7 +71,7 @@ My interest includes computer graphics and 3D vision.
                 </li>
                 <li><b>Major</b>: Computer Science and Technology</li>
                 <li><b>Overall GPA</b>: &nbsp;&nbsp;&nbsp;94.6/100&nbsp;&nbsp;&nbsp;3.98/4</li>
-                <li><b>Ranking</b>: 1/125 in the first three years</li>
+                <li><b>Ranking</b>: &nbsp;&nbsp;&nbsp;1/125</li>
                 <li><b>Thesis</b>: Real-Time SLAM System based on ARKit Framework <i>(Excellent Graduation Thesis)</i></li>
             </ul>
         </p>
@@ -123,14 +123,13 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            The fusion procedure used by KinectFusion projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. We proposed a method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value, while our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We have tested our method on both SDF voxel and mesh representations of the global model, and we believe it can also be applied to other model representation methods.
+            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value. It simply projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. Our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We designed loss functions based on this assumption and wrote CUDA functions to accelerate the optimization process. We test our method on both SDF voxel and mesh representations and get better reconstruction results than those of KinectFusion.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 
 <div style="width: 100%;">
 <div>
@@ -148,7 +147,7 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Also, it exploits user's interaction to improve the precision of loop detection. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
+            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Additionally, it exploits user's interaction to improve the precision of loop detection. Also, to avoid memory overflow in long time scan, it uses an embedded database to store infrequently visited data. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
         </p>
     </div>
 </div>
@@ -172,13 +171,14 @@ My interest includes computer graphics and 3D vision.
             <i>Course Project of Compiler Principle</i>
         </p>
         <p>
-            We developed a compiler that can compile a C-like language into binary codes. The project is divided into three parts: Lexer and parser, code generation, and AST (Abstract Syntax Tree) visualization. The lexer and parser are based on lex and yacc. They receive the string and build an AST; The code generation module is based on LLVM. It receives the AST and generate binary codes; And we use HTML to visualize the AST.
+            We developed a compiler that can compile C language into binary codes. The project is divided into three parts: Lexer and parser, code generation, and AST (Abstract Syntax Tree) visualization. The lexer and parser are based on lex and yacc. They receive the source code string and build an AST; The code generation module is based on LLVM. It receives the AST and generate binary codes; And we use HTML to visualize the AST.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
@@ -203,7 +203,6 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
@@ -220,13 +219,14 @@ My interest includes computer graphics and 3D vision.
             <i>Course Project of Intelligent Acquisition of Visual Information</i>
         </p>
         <p>
-            We proposed a system based on voxel carving and ray casting algorithm to reconstruct the 3D shapes of opaque objects. We use a projector to project structured light on the object and a camera to capture photos simultaneously. These photos are then used to extract silhouettes and estimate depth images of the object. We use silhouettes to carve the voxel model of the object, and use depth images to refine it. Finally, ray casting algorithm is used to color the reconstructed model.
+            We proposed a system based on voxel carving and ray casting algorithms to reconstruct the 3D shapes of opaque objects. We firstly use a projector to project structured light on the object and a camera to capture photos simultaneously. These photos are then used to extract silhouettes and estimate depth images of the object. Then We use silhouettes to carve the voxel model of the object, and use depth images to refine it. Finally, ray casting algorithm is used to color the reconstructed model.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
@@ -259,9 +259,9 @@ My interest includes computer graphics and 3D vision.
 
 # 🔧Skills
 
-- **Programming Language**: C/C++, Python, Swift, Objective-C
+- **Programming Language**: C/C++, Python, Swift, Objective-C, Verilog
 
-- **Tool**: OpenCV, OpenGL, CUDA, PyTorch, NumPy, CMake, SQL, Ubuntu
+- **Tool**: OpenCV, OpenGL, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake, Ubuntu
 
 - **Language**: TOEFL iBT 109 (L28+R30+S26+W25), GRE 335+4.0 (V165+Q170+AW4.0)
 
