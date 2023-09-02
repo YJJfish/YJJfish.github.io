@@ -23,7 +23,7 @@ My interest includes computer graphics and 3D vision.
 
 
 # 🔥 News
-- I am looking for a 2024 summer internship.
+- I am actively seeking 2024 summer intern positions. Feel free to connect with me!
 
 # 📖 Educations
 
