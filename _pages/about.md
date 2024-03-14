@@ -21,10 +21,6 @@ I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.
 
 My interest includes computer graphics and 3D vision.
 
-
-# 🔥 News
-- I am actively seeking 2024 summer intern positions. Feel free to connect with me!
-
 # 📖 Educations
 
 <div style="width: 100%;">
@@ -42,7 +38,7 @@ My interest includes computer graphics and 3D vision.
         <p>
             <ul style="list-style-type:circle;">
                 <li><b>Program</b>: Master of Science in Computer Vision</li>
-                <li><b>Department</b>: Robotics Institute, School of Computer Science</li>
+                <li><b>Cumulative QPA</b>: 4.33/4.33</li>
             </ul>
         </p>
     </div>
@@ -110,6 +106,54 @@ My interest includes computer graphics and 3D vision.
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
+        <img src="../images/CameraArrayCalibration.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>Large Scale Camera Array Calibration via SfM</b>
+  	        <span style="float:right;">
+                <i>2024.1 - Present</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Research Project at Meta</i>
+        </p>
+        <p>
+            We are working on building an efficient and accurate SfM pipeline to calibrate the camera array and reconstruct the human face from multi-view avatar images.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/Render72.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>Render72: A real-time renderer based on Vulkan <a href="https://github.com/YJJfish/Renderer72">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2024.1 - Present</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Real-Time Graphics (15-472)</i>
+        </p>
+        <p>
+            I developed a real-time renderer based on Vulkan. It can load scene from files (in <a href="https://github.com/15-472/s72">s72</a> format) and render it to the screen (including animation). It supports 5 material types: simple, mirror, environment, lambertian, and pbr. It also supports image-based lighting by precomputing the environment lookup table, and analytical lighting with shadow mapping.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
         <img src="../images/Anti_Blur_Fusion.png" style="border:1vw solid transparent;">
 	</div>
 	<div style="width:70%;float:left">
@@ -123,13 +167,14 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value. It simply projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. Our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We designed loss functions based on this assumption and wrote CUDA functions to accelerate the optimization process. We test our method on both SDF voxel and mesh representations and get better reconstruction results than those of KinectFusion.
+            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value. It simply projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. Our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We designed loss functions based on this assumption and wrote CUDA functions to accelerate the optimization process. We have tested our method on both SDF voxel and mesh representations and got better reconstruction results than KinectFusion.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
@@ -178,8 +223,6 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
-
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
@@ -203,6 +246,7 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
@@ -226,8 +270,6 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
-
 <div style="width: 100%;">
 <div>
 	<div style="width:30%;float:left">
@@ -252,16 +294,8 @@ My interest includes computer graphics and 3D vision.
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
 
-# 🎖 Honors and Awards
-
-- Pilot Scholarship of Chu Kochen Honors College *(Fall 2022)*
-- First-Class Scholarship of Zhejiang University *(Fall 2021)*
-
 # 🔧Skills
 
+
 - **Programming Language**: C/C++, Python, Swift, Objective-C, Verilog
-
-- **Tool**: OpenCV, OpenGL, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake, Ubuntu
-
-- **Language**: TOEFL iBT 109 (L28+R30+S26+W25), GRE 335+4.0 (V165+Q170+AW4.0)
-
+- **Tool**: OpenGL, Vulkan, MetalKit, OpenCV, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake, Ubuntu
