@@ -21,7 +21,7 @@ I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.
 
 My interest includes computer graphics and 3D vision.
 
-# 📖 Educations
+# 📖 Education
 
 <div style="width: 100%;">
 <div>
@@ -76,7 +76,31 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 
-# 💻 Internships
+# 💻 Experience
+
+<div style="width: 100%;">
+<div>
+	<div style="width:20%;float:left">
+        <img src="../images/Meta.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:80%;float:left">
+        <p>
+            <b>Meta</b>
+  	        <span style="float:right;">
+                <i>2024.1 - Present</i>
+  	        </span>
+        </p>
+        <p>
+            <ul style="list-style-type:circle;">
+                <li><b>Position</b>: Student Researcher</li>
+                <li><b>Advisor</b>: Shubham Garg, Dr. Pei Wu</li>
+            </ul>
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -85,7 +109,7 @@ My interest includes computer graphics and 3D vision.
 	</div>
 	<div style="width:80%;float:left">
         <p>
-            <b>Microsoft Research Asia</b>, Beijing, China
+            <b>Microsoft Research Asia</b>
   	        <span style="float:right;">
                 <i>2022.3 - 2023.6</i>
   	        </span>
@@ -100,6 +124,7 @@ My interest includes computer graphics and 3D vision.
 </div>
 </div>
 <div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 # 📝 Projects
 
