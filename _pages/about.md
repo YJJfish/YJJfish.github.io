@@ -125,8 +125,31 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 # 📝 Projects
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/NoPictureHere.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>jjyouLib <a href="https://github.com/YJJfish/jjyouLib">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2022.3 - Present</i>
+  	        </span>
+        </p>
+        <!--<p>
+            <i>Research Project at Meta</i>
+        </p>-->
+        <p>
+            My personal C++ library, a collection of various classes and functions, to streamline the development process. I am keeping updating it as I journey through my educational path and acquire new knowledge.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -319,7 +342,7 @@ My interest includes computer graphics and 3D vision.
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
 
-# 🔧Skills
+# 🔧 Skills
 
 
 - **Programming Language**: C/C++, Python, Swift, Objective-C, Verilog
