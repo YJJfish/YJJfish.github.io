@@ -101,7 +101,6 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 <div style="width: 100%;">
 <div>
 	<div style="width:20%;float:left">
@@ -125,7 +124,9 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 # 📝 Projects
+
 
 <div style="width: 100%;">
 <div>
@@ -174,6 +175,29 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/KinectFusion.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>KinectFusion - Vulkan <a href="https://github.com/YJJfish/KinectFusion-Vulkan">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>2024.3 - 2024.4</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Robot Localization and Mapping (16-833)</i>
+        </p>
+        <p>
+            In this project, I implemented <a href="https://ieeexplore.ieee.org/document/6162880">KinectFusion</a> based on Vulkan. Different from CUDA, Vulkan is a cross-platform graphics API that supports both graphics rendering and parallel computing. Therefore, my implementation is cross-platform and supports real-time camera tracking, scene reconstruction, and graphics rendering at the same time. The estimated camera poses can also be used to render AR objects onto the input RGB images to achieve AR effects.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
 
 <div style="width: 100%;">
 <div>
@@ -184,20 +208,21 @@ My interest includes computer graphics and 3D vision.
         <p>
             <b>Render72: A real-time renderer based on Vulkan <a href="https://github.com/YJJfish/Renderer72">[Project Page]</a></b>
   	        <span style="float:right;">
-                <i>2024.1 - Present</i>
+                <i>2024.1 - 2024.4</i>
   	        </span>
         </p>
         <p>
             <i>Course Project of Real-Time Graphics (15-472)</i>
         </p>
         <p>
-            I developed a real-time renderer based on Vulkan. It can load scene from files (in <a href="https://github.com/15-472/s72">s72</a> format) and render it to the screen (including animation). It supports 5 material types: simple, mirror, environment, lambertian, and pbr. It also supports image-based lighting by precomputing the environment lookup table, and analytical lighting with shadow mapping.
+            I developed a real-time renderer based on Vulkan. It can load scene from files (in <a href="https://github.com/15-472/s72">s72</a> format) and render it to the screen (including animation). It supports 5 material types: simple, mirror, environment, lambertian, and pbr. The scene can have an environment map that can be used for image-based lighting by precomputing radiance/irradiance lookup tables.  The renderer also supports analytical lighting with shadow mapping (perspective / omnidirectional / cascade). It also supports defered shading and screen space ambient occlusion (SSAO).
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
@@ -346,4 +371,4 @@ My interest includes computer graphics and 3D vision.
 
 
 - **Programming Language**: C/C++, Python, Swift, Objective-C, Verilog
-- **Tool**: OpenGL, Vulkan, MetalKit, OpenCV, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake, Ubuntu
+- **Tool**: OpenGL, Vulkan, MetalKit, OpenCV, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake
