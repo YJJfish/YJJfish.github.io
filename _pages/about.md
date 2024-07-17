@@ -81,18 +81,40 @@ My interest includes computer graphics and 3D vision.
 <div style="width: 100%;">
 <div>
 	<div style="width:20%;float:left">
+        <img src="../images/ByteDance.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:80%;float:left">
+        <p>
+            <b>ByteDance</b>
+  	        <span style="float:right;">
+                <i>2024.5 - 2024.8</i>
+  	        </span>
+        </p>
+        <p>
+            <ul style="list-style-type:circle;">
+                <li><b>Position</b>: AR Effect Engineer Intern</li>
+            </ul>
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+<div style="width: 100%;">
+<div>
+	<div style="width:20%;float:left">
         <img src="../images/Meta.png" style="border:1vw solid transparent;">
 	</div>
 	<div style="width:80%;float:left">
         <p>
             <b>Meta</b>
   	        <span style="float:right;">
-                <i>2024.1 - Present</i>
+                <i>2024.1 - 2024.5</i>
   	        </span>
         </p>
         <p>
             <ul style="list-style-type:circle;">
-                <li><b>Position</b>: Student Researcher</li>
+                <li><b>Position</b>: Student Researcher (School Project)</li>
                 <li><b>Advisor</b>: Shubham Garg, Dr. Pei Wu</li>
             </ul>
         </p>
@@ -124,6 +146,7 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 # 📝 Projects
 
