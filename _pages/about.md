@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University. I obtained my bachelor's degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/). I also worked as a research intern at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/internet-graphics/), advised by Dr. [Yizhong Zhang](https://yizhongzhang1989.github.io/) and Dr. [Yang Liu](https://xueyuhanlang.github.io/).
+I am a student in the [Master of Science in Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) (MSCV) program at Carnegie Mellon University. I obtained my bachelor's degree in Computer Science and Technology at [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/).
 
 My interest includes computer graphics and 3D vision.
 
@@ -146,10 +146,7 @@ My interest includes computer graphics and 3D vision.
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
-
 # 📝 Projects
-
 
 <div style="width: 100%;">
 <div>
@@ -167,7 +164,31 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Meta</i>
         </p>-->
         <p>
-            My personal C++ library, a collection of various classes and functions, to streamline the development process. I am keeping updating it as I journey through my educational path and acquire new knowledge.
+            My personal C++ library, a collection of various classes and functions, to streamline the development process of my personal projects. I am keeping updating it as I journey through my educational path and acquire new knowledge.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/VFX FFD.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>Optimizing and designing features for Effect House's Visual Effects system</b>
+  	        <span style="float:right;">
+                <i>2024.5 - 2024.8</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Internship Project at ByteDance</i>
+        </p>
+        <p>
+            In this internship project, I optimized the particle attribute buffer in Effect House's Visual Effects (VFX) system, which saved more than 50% memory for most template VFX effects in Effect House. Besides, I implemented simulation node in VFX graph editor which allows users to use the VFX system as a general compute pipeline, apart from a GPU particle system. The users can use simulation node to achieve custom physics simulation effects. Finally, I implemented a 3D Gaussian Splatting output node to render 3D scenes using VFX particles.
         </p>
     </div>
 </div>
@@ -184,7 +205,7 @@ My interest includes computer graphics and 3D vision.
         <p>
             <b>Large Scale Camera Array Calibration via SfM</b>
   	        <span style="float:right;">
-                <i>2024.1 - Present</i>
+                <i>2024.1 - 2024.5, 2024.9 - Present</i>
   	        </span>
         </p>
         <p>
@@ -238,14 +259,13 @@ My interest includes computer graphics and 3D vision.
             <i>Course Project of Real-Time Graphics (15-472)</i>
         </p>
         <p>
-            I developed a real-time renderer based on Vulkan. It can load scene from files (in <a href="https://github.com/15-472/s72">s72</a> format) and render it to the screen (including animation). It supports 5 material types: simple, mirror, environment, lambertian, and pbr. The scene can have an environment map that can be used for image-based lighting by precomputing radiance/irradiance lookup tables.  The renderer also supports analytical lighting with shadow mapping (perspective / omnidirectional / cascade). It also supports defered shading and screen space ambient occlusion (SSAO).
+            I developed a real-time renderer based on Vulkan. It supports multiple material types like mirror, lambertian, and pbr. The scene can have an environment map that can be used for image-based lighting by precomputing radiance/irradiance lookup tables.  The renderer also supports analytical lighting with shadow mapping (perspective / omnidirectional / cascade). It also supports deferred shading and screen space ambient occlusion (SSAO).
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 
 <div style="width: 100%;">
 <div>
@@ -263,14 +283,13 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. KinectFusion (and many other methods) assumes the actual depth along every direction within a pixel's vision cone equals to the captured depth value. It simply projects each voxel onto the depth image, finds the nearest pixel, and computes the projective SDF value. Therefore, it may produce blurred or aliased models when the image resolution is low. Our method assumes the captured depth value of a pixel equals to the <strong>average</strong> of actual depths of the scene within the pixel's vision cone. We designed loss functions based on this assumption and wrote CUDA functions to accelerate the optimization process. We have tested our method on both SDF voxel and mesh representations and got better reconstruction results than KinectFusion.
+            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. Traditional methods like KinectFusion optimize the reconstruction by minimizing the difference between the reconstruction depths and captured depths. Therefore, they may produce blurred or aliased reconstructions when the image resolution is low. Our method is based on the assumption that the captured depth of a pixel equals to the average of actual depths within the pixel's vision cone. We designed loss functions to minimize difference between the average of reconstruction depths and captured depth. We have tested our method on both SDF voxel and mesh representations and got better reconstruction results than KinectFusion.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
-
 
 <div style="width: 100%;">
 <div>
@@ -288,7 +307,7 @@ My interest includes computer graphics and 3D vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We developed a SLAM system for accurate real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a two-dimensional confusion map to detect loops globally. Additionally, it exploits user's interaction to improve the precision of loop detection. Also, to avoid memory overflow in long time scan, it uses an embedded database to store infrequently visited data. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
+            We developed a SLAM system for real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a confusion map to detect loops globally. Additionally, it allows users to confirm detected loops via the UI to improve the precision. Also, to avoid memory overflow in long time scan, it uses an embedded database to store infrequently visited data. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
         </p>
     </div>
 </div>
@@ -335,13 +354,14 @@ My interest includes computer graphics and 3D vision.
             <i>Course Project of Computer Graphics</i>
         </p>
         <p>
-            We developed a 3D game based on OpenGL, where users can control a spaceship to travel in the universe, watch the view of space stations, planets and stars, and launch missiles to destory enemy spaceships. To make the visual effects more realistic, we applied several techniques, including specular mapping, normal mapping, light attenuation, and collision detection. We write our own programs for rendering and game logic, while the resource files (e.g. 3D models, textures) are from the game <a href="https://www.paradoxinteractive.com/games/stellaris/">Stellaris</a>.
+            We developed a 3D game based on OpenGL, where users can control a spaceship to travel in the universe, watch the view of space stations, planets and stars, and launch missiles to destory enemy spaceships. To make the visual effects more realistic, we applied several techniques, including specular mapping, normal mapping, light attenuation, and collision detection.
         </p>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 <div style="width: 100%;">
 <div>
@@ -393,5 +413,5 @@ My interest includes computer graphics and 3D vision.
 # 🔧 Skills
 
 
-- **Programming Language**: C/C++, Python, Swift, Objective-C, Verilog
-- **Tool**: OpenGL, Vulkan, MetalKit, OpenCV, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake
+- **Programming Language**: C/C++, Python, JavaScript, Swift, Objective-C, Verilog
+- **Tool&Framework**: Vulkan, OpenGL, Metal, OpenCV, CUDA, PyTorch, NumPy, MySQL, Doxygen, CMake
