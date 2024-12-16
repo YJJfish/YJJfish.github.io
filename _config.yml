@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jinjiang You (尤锦江)"
-description              : "Master student at Carnegie Mellon University."
+description              : "Incoming Research Engineer at Meta Reality Labs"
 repository               : "YJJfish/YJJfish.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jinjiang You (尤锦江)"
   avatar           : "images/YJJ.jpg"
-  bio              : "Carnegie Mellon University"
+  bio              : "Meta Platforms, Inc."
   location         : "Pittsburgh, Pennsylvania"
   employer         :
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "jjyou0920@163.com"
+  email            : "jinjiangyou.jy@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
