@@ -21,18 +21,6 @@ I am a Research Engineer at [Meta Reality Labs](https://about.meta.com/realityla
 
 My interest includes Computer Graphics and 3D Vision.
 
-# ⚠️ Identity Use Disclaimer
-
-任何使用本人ID复印件、人脸图像或仿冒身份进行的金融行为，均属无效。
-
-本人从未授权任何第三方代表本人行事，所有行为仅以本人亲自确认为准。
-
-Due to increasing global risks of telecom and identity fraud, please be aware of the following:
-
-Any financial operations conducted using my scanned ID, facial data, or impersonated identity are unauthorized and invalid.
-
-I do not authorize any third party to act on my behalf in any context. Only actions confirmed by myself in person are considered valid.
-
 # 📖 Education
 
 <div style="width: 100%;">
@@ -166,13 +154,13 @@ I do not authorize any third party to act on my behalf in any context. Only acti
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Multi-Cali Anything <a href="https://github.com/YJJfish/Multi-Cali-Anything">[Project Page]</a> <a href="https://arxiv.org/abs/2503.00737">[Paper]</a></b>
+            <b>Multi-Cali Anything <a href="https://wanghewei16.github.io/Multi-Cali-Anything">[Project Page]</a> <a href="https://arxiv.org/abs/2503.00737">[Paper]</a> <a href="https://github.com/YJJfish/Multi-Cali-Anything">[Code]</a></b>
   	        <span style="float:right;">
                 <i>Sep 2024 - Dec 2024</i>
   	        </span>
         </p>
         <p>
-            <i>Research Project at CMU & Meta</i>
+            <i>Research Project at CMU; Accepted at IROS 2025</i>
         </p>
         <p>
             Calibrating large-scale camera arrays, such as those in dome-based setups, is time-intensive and typically requires dedicated captures of known patterns. We propose a dense-feature-driven multi-frame calibration method that refines intrinsics directly from scene data, eliminating the necessity for additional calibration captures. Our approach enhances traditional Structure-from-Motion (SfM) pipelines by introducing an extrinsics regularization term to progressively align estimated extrinsics with ground-truth values, a dense feature reprojection term to reduce keypoint errors by minimizing reprojection loss in the feature space, and an intrinsics variance term for joint optimization across multiple frames. Experiments on the <a href="https://github.com/facebookresearch/multiface">Multiface</a> dataset show that our method achieves nearly the same precision as dedicated calibration processes, and significantly enhances intrinsics and 3D reconstruction accuracy. Fully compatible with existing SfM pipelines, our method provides an efficient and practical plug-and-play solution for large-scale camera setups.

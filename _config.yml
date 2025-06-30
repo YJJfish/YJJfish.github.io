@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jinjiang You (尤锦江)"
+title                    : "Jinjiang You"
 description              : "Research Engineer at Meta Reality Labs"
 repository               : "YJJfish/YJJfish.github.io"
 google_scholar_stats_use_cdn : false
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jinjiang You (尤锦江)"
+  name             : "Jinjiang You"
   avatar           : "images/YJJ.jpg"
   bio              : "Meta Platforms, Inc."
   location         : "Pittsburgh, Pennsylvania"
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
