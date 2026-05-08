@@ -291,6 +291,30 @@ My interest includes Computer Graphics and 3D Vision.
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
 
+<div style="width: 100%;">
+<div>
+	<div style="width:30%;float:left">
+        <img src="../images/C-Compiler.png" style="border:1vw solid transparent;">
+	</div>
+	<div style="width:70%;float:left">
+        <p>
+            <b>C Compiler <a href="https://github.com/YJJfish/C-Compiler">[Project Page]</a></b>
+  	        <span style="float:right;">
+                <i>Apr 2022 - Jun 2022</i>
+  	        </span>
+        </p>
+        <p>
+            <i>Course Project of Compiler Principle</i>
+        </p>
+        <p>
+            We developed a compiler that can compile C language into binary codes. The project is divided into three parts: Lexer and parser, code generation, and AST (Abstract Syntax Tree) visualization. The lexer and parser are based on lex and yacc. They receive the source code string and build an AST; The code generation module is based on LLVM. It receives the AST and generate binary codes; And we use HTML to visualize the AST.
+        </p>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div>
+<hr width="100%" size="1" align="center">
+
 # 🔧 Skills
 
 - **Programming Language**: C/C++, Python, JavaScript, Swift, Objective-C, Verilog
