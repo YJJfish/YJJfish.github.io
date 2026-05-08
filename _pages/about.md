@@ -17,9 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Engineer at [Meta Reality Labs](https://about.meta.com/realitylabs/). I earned my master's degree in [Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) at [Carnegie Mellon University](https://www.cmu.edu/). Previously, I completed my bachelor's degree in [Computer Science and Technology](http://www.en.cs.zju.edu.cn/22145/list.htm) at [Zhejiang University](https://www.zju.edu.cn/english/), advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/).
+I am a Research Engineer at [Meta Reality Labs](https://about.meta.com/realitylabs/), working on GPU systems, real-time rendering infrastructure, and performance optimization for photorealistic avatars in VR.
 
-My interest includes Computer Graphics and 3D Vision.
+My work focuses on C++/Vulkan rendering backends, GPU profiling and benchmarking, shader and render-graph optimization, developer tooling, and Python/C++ integration for neural rendering workflows. I am also interested in ML inference infrastructure, GPU runtime systems, and low-level performance engineering.
+
+I earned my master's degree in [Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) from [Carnegie Mellon University](https://www.cmu.edu/). Previously, I completed my bachelor's degree in [Computer Science and Technology](http://www.en.cs.zju.edu.cn/22145/list.htm) at [Zhejiang University](https://www.zju.edu.cn/english/), where I was advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/).
+
+My interests include GPU systems, real-time rendering, computer graphics, 3D vision, neural rendering, and ML infrastructure.
 
 # 📖 Education
 
@@ -84,21 +88,24 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:80%;float:left">
         <p>
-            <b>Meta</b>, Pittsburgh, U.S.
+            <b>Meta Reality Labs</b>, Pittsburgh, U.S.
   	        <span style="float:right;">
                 <i>Jan 2025 - Present</i>
   	        </span>
         </p>
-        <p>
-            <ul style="list-style-type:circle;">
-                <li><b>Position</b>: Research Engineer</li>
-            </ul>
-        </p>
+        <ul style="list-style-type:circle;">
+            <li><b>Position</b>: Research Engineer</li>
+            <li>Working on GPU systems, real-time rendering infrastructure, and performance optimization for photorealistic avatars in VR.</li>
+            <li>Optimized a Vulkan-based rendering backend with depth culling, tiled shading, render graph refactoring, async compute queues, and shader-level optimization.</li>
+            <li>Built Python/C++ developer tooling for prototyping, profiling, benchmarking, and performance analysis of neural rendering workflows.</li>
+            <li>Implemented CUDA-Vulkan interoperability for PyTorch CUDA tensors using external memory/semaphore mechanisms to reduce unnecessary CPU-GPU copies.</li>
+        </ul>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 <div style="width: 100%;">
 <div>
 	<div style="width:20%;float:left">
@@ -106,21 +113,21 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:80%;float:left">
         <p>
-            <b>ByteDance</b>, San Jose, U.S.
+            <b>ByteDance / TikTok</b>, San Jose, U.S.
   	        <span style="float:right;">
                 <i>May 2024 - Aug 2024</i>
   	        </span>
         </p>
-        <p>
-            <ul style="list-style-type:circle;">
-                <li><b>Position</b>: AR Effect Engineer Intern</li>
-            </ul>
-        </p>
+        <ul style="list-style-type:circle;">
+            <li><b>Position</b>: AR Effect Engineer Intern</li>
+            <li>Worked on optimization and feature development for Effect House's Visual Effects system, focusing on GPU particle memory optimization, graph-based VFX authoring, and neural 3D scene rendering features.</li>
+        </ul>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 <div style="width: 100%;">
 <div>
 	<div style="width:20%;float:left">
@@ -130,20 +137,20 @@ My interest includes Computer Graphics and 3D Vision.
         <p>
             <b>Microsoft Research Asia</b>, Beijing, China
   	        <span style="float:right;">
-                <i>Mar 2022.3 - Jun 2023</i>
+                <i>Mar 2022 - Jun 2023</i>
   	        </span>
         </p>
-        <p>
-            <ul style="list-style-type:circle;">
-                <li><b>Position</b>: Research Intern of <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/">Internet Graphics</a> group</li>
-                <li><b>Advisor</b>: Dr. <a href="https://yizhongzhang1989.github.io/">Yizhong Zhang</a>, Dr. <a href="https://xueyuhanlang.github.io/">Yang Liu</a></li>
-            </ul>
-        </p>
+        <ul style="list-style-type:circle;">
+            <li><b>Position</b>: Research Intern of <a href="https://www.microsoft.com/en-us/research/group/internet-graphics/">Internet Graphics</a> group</li>
+            <li><b>Advisor</b>: Dr. <a href="https://yizhongzhang1989.github.io/">Yizhong Zhang</a>, Dr. <a href="https://xueyuhanlang.github.io/">Yang Liu</a></li>
+            <li>Worked on 3D reconstruction, depth fusion, and real-time AR/SLAM systems, combining computer vision algorithms, CUDA acceleration, C++ systems engineering, and iOS AR visualization.</li>
+        </ul>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
+
 
 # 📝 Projects
 
@@ -163,8 +170,14 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Research Project at CMU; Accepted at IROS 2025</i>
         </p>
         <p>
-            Calibrating large-scale camera arrays, such as those in dome-based setups, is time-intensive and typically requires dedicated captures of known patterns. We propose a dense-feature-driven multi-frame calibration method that refines intrinsics directly from scene data, eliminating the necessity for additional calibration captures. Our approach enhances traditional Structure-from-Motion (SfM) pipelines by introducing an extrinsics regularization term to progressively align estimated extrinsics with ground-truth values, a dense feature reprojection term to reduce keypoint errors by minimizing reprojection loss in the feature space, and an intrinsics variance term for joint optimization across multiple frames. Experiments on the <a href="https://github.com/facebookresearch/multiface">Multiface</a> dataset show that our method achieves nearly the same precision as dedicated calibration processes, and significantly enhances intrinsics and 3D reconstruction accuracy. Fully compatible with existing SfM pipelines, our method provides an efficient and practical plug-and-play solution for large-scale camera setups.
+            A dense-feature-driven camera calibration system for large-scale camera arrays that refines camera parameters directly from scene data, reducing the need for dedicated checkerboard captures.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Developed a CUDA/C++ accelerated calibration system that integrates dense feature refinement into existing SfM pipelines.</li>
+            <li>Implemented custom CUDA kernels for keypoint feature extraction, reference feature computation, and dense cost-map generation used in feature-metric optimization.</li>
+            <li>Designed regularization terms for extrinsics alignment, dense feature reprojection loss, and multi-frame intrinsics consistency.</li>
+            <li>Evaluated on the <a href="https://github.com/facebookresearch/multiface">Multiface</a> dataset, achieving calibration quality comparable to dedicated calibration while improving downstream reconstruction quality.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -178,7 +191,7 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Optimizing and designing features for Effect House's Visual Effects system</b>
+            <b>Effect House Visual Effects System</b>
   	        <span style="float:right;">
                 <i>May 2024 - Aug 2024</i>
   	        </span>
@@ -187,8 +200,13 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Internship Project at ByteDance</i>
         </p>
         <p>
-            In this internship project, I optimized the particle attribute buffer in Effect House's Visual Effects (VFX) system, which saved more than 50% memory for most template VFX effects in Effect House. Besides, I implemented simulation node in VFX graph editor which allows users to use the VFX system as a general compute pipeline, apart from a GPU particle system. The users can use simulation node to achieve custom physics simulation effects. Finally, I implemented a 3D Gaussian Splatting output node to render 3D scenes using VFX particles.
+            A ByteDance internship project focused on optimizing and extending the Effect House VFX system.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Optimized GPU particle attribute buffer allocation and data layout, reducing memory usage by more than 50% for most VFX templates.</li>
+            <li>Designed a simulation node in the VFX graph editor, allowing users to build customizable physics simulation workflows beyond standard particle effects.</li>
+            <li>Implemented a 3D Gaussian Splatting output node to render neural 3D scenes through the VFX particle pipeline.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -202,7 +220,7 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>KinectFusion - Vulkan <a href="https://github.com/YJJfish/KinectFusion-Vulkan">[Project Page]</a></b>
+            <b>KinectFusion-Vulkan <a href="https://github.com/YJJfish/KinectFusion-Vulkan">[Project Page]</a></b>
   	        <span style="float:right;">
                 <i>Mar 2024 - Apr 2024</i>
   	        </span>
@@ -211,8 +229,13 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Course Project of Robot Localization and Mapping (16-833)</i>
         </p>
         <p>
-            In this project, I implemented <a href="https://ieeexplore.ieee.org/document/6162880">KinectFusion</a> based on Vulkan. Different from CUDA, Vulkan is a cross-platform graphics API that supports both graphics rendering and parallel computing. Therefore, my implementation is cross-platform and supports real-time camera tracking, scene reconstruction, and graphics rendering at the same time. The estimated camera poses can also be used to render AR objects onto the input RGB images to achieve AR effects.
+            A Vulkan-based implementation of KinectFusion that integrates camera tracking, scene reconstruction, GPU-accelerated fusion, and real-time graphics rendering.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Implemented a real-time 3D reconstruction system in C++/Vulkan, integrating GPU-accelerated fusion and visualization.</li>
+            <li>Used Vulkan compute and graphics pipelines to support real-time reconstruction and AR rendering on RGB-D sequences.</li>
+            <li>Rendered AR effects using estimated camera poses from the reconstruction pipeline.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -226,7 +249,7 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Render72: A real-time renderer based on Vulkan <a href="https://github.com/YJJfish/Renderer72">[Project Page]</a></b>
+            <b>Render72: Real-Time Vulkan Renderer <a href="https://github.com/YJJfish/Renderer72">[Project Page]</a></b>
   	        <span style="float:right;">
                 <i>Jan 2024 - Apr 2024</i>
   	        </span>
@@ -235,8 +258,13 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Course Project of Real-Time Graphics (15-472)</i>
         </p>
         <p>
-            I developed a real-time renderer based on Vulkan. It supports multiple material types like mirror, lambertian, and pbr. The scene can have an environment map that can be used for image-based lighting by precomputing radiance/irradiance lookup tables.  The renderer also supports analytical lighting with shadow mapping (perspective / omnidirectional / cascade). It also supports deferred shading and screen space ambient occlusion (SSAO).
+            A real-time Vulkan renderer with a modular graphics backend for scene loading, animation, multi-pass rendering, and high-quality shading.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Implemented deferred shading, shadow mapping, PBR/IBL, parallax mapping, SSAO, and multiple material types.</li>
+            <li>Built rendering passes with attention to GPU memory usage, synchronization, and frame-time stability.</li>
+            <li>Supported scene loading, animation playback, environment lighting, analytical lights, and screen-space effects.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -250,7 +278,7 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Anti-Blur Depth Fusion based on Vision Cone Model</b>
+            <b>Anti-Blur Depth Fusion Based on Vision Cone Model</b>
   	        <span style="float:right;">
                 <i>Nov 2022 - Jun 2023</i>
   	        </span>
@@ -259,8 +287,13 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We proposed a depth fusion method to fuse low-resolution depth images while still maintaining high resolution information in the global model. Traditional methods like KinectFusion optimize the reconstruction by minimizing the difference between the reconstruction depths and captured depths. Therefore, they may produce blurred or aliased reconstructions when the image resolution is low. Our method is based on the assumption that the captured depth of a pixel equals to the average of actual depths within the pixel's vision cone. We designed loss functions to minimize difference between the average of reconstruction depths and captured depth. We have tested our method on both SDF voxel and mesh representations and got better reconstruction results than KinectFusion.
+            A CUDA-accelerated depth fusion method designed to preserve high-frequency geometric details when fusing low-resolution depth images.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Designed a vision-cone-based loss formulation that models each observed depth pixel as the average depth within its pixel cone.</li>
+            <li>Implemented CUDA kernels to accelerate performance-critical loss computation and enable real-time reconstruction visualization.</li>
+            <li>Evaluated the method on SDF voxel and mesh representations, improving reconstruction detail over baseline fusion methods.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -274,7 +307,7 @@ My interest includes Computer Graphics and 3D Vision.
 	</div>
 	<div style="width:70%;float:left">
         <p>
-            <b>Real-Time SLAM System based on ARKit Framework</b>
+            <b>Real-Time SLAM System Based on ARKit Framework</b>
   	        <span style="float:right;">
                 <i>Mar 2022 - Oct 2022</i>
   	        </span>
@@ -283,8 +316,13 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Research Project at Microsoft Research Asia</i>
         </p>
         <p>
-            We developed a SLAM system for real-time tracking of camera trajectory when scanning indoor scenes with rich planar structures, using only an IOS device like iPhone or iPad. Our system gets the RGB-D data from the LiDAR camera, along with estimated camera poses computed by ARKit framework. It then searches for coplanar and parallel planes in the scene and uses them to optimize camera poses. Meanwhile, it uses a vocabulary tree and a confusion map to detect loops globally. Additionally, it allows users to confirm detected loops via the UI to improve the precision. Also, to avoid memory overflow in long time scan, it uses an embedded database to store infrequently visited data. Experiments show that our method improves the performance of camera localization and loop detection algorithms of ARKit. It allows users to scan large indoor scenes while still runs at real-time frame rate to give feedback to users.
+            A real-time iOS AR scanning and reconstruction system using ARKit, a C++ SLAM/reconstruction backend, Objective-C bridging, SwiftUI UI, and Metal visualization.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Integrated a C++ SLAM/reconstruction backend into an iOS ARKit app through an Objective-C bridge, SwiftUI interface, and Metal-based real-time visualization.</li>
+            <li>Improved localization robustness using plane constraints from indoor scenes with rich planar structures.</li>
+            <li>Implemented loop closure with vocabulary-tree retrieval and confusion-matrix filtering, with UI-based confirmation for detected loops.</li>
+        </ul>
     </div>
 </div>
 </div>
@@ -307,15 +345,23 @@ My interest includes Computer Graphics and 3D Vision.
             <i>Course Project of Compiler Principle</i>
         </p>
         <p>
-            We developed a compiler that can compile C language into binary codes. The project is divided into three parts: Lexer and parser, code generation, and AST (Abstract Syntax Tree) visualization. The lexer and parser are based on lex and yacc. They receive the source code string and build an AST; The code generation module is based on LLVM. It receives the AST and generate binary codes; And we use HTML to visualize the AST.
+            An LLVM-based C-like language compiler built with C++, Flex/Bison, and LLVM.
         </p>
+        <ul style="list-style-type:circle;">
+            <li>Implemented compiler components including grammar design, AST representation, code generation, test cases, and documentation.</li>
+            <li>Used Flex/Bison for lexical analysis and parsing, and LLVM-14 C++ API for LLVM IR and object-code generation.</li>
+            <li>Built an AST visualization tool to inspect parsed program structure.</li>
+        </ul>
     </div>
 </div>
 </div>
 <div style="clear:both"></div>
 <hr width="100%" size="1" align="center">
 
+
 # 🔧 Skills
 
-- **Programming Language**: C/C++, Python, JavaScript, Swift, Objective-C, Verilog
-- **Tool&Framework**: Vulkan, OpenGL, Metal, OpenCV, CUDA, PyTorch, NumPy, Doxygen, CMake
+- **Programming**: C/C++, Python, GLSL, JavaScript, Swift, Objective-C
+- **GPU, Graphics, and Systems**: Vulkan, CUDA, OpenGL, Metal, GPU profiling, shader optimization, render graphs, async compute, CUDA-Vulkan interop
+- **ML / CV / Runtime Infrastructure**: PyTorch, pybind11/nanobind, 3D Gaussian Splatting, neural rendering, OpenCV, model evaluation workflows
+- **Tools**: CMake, Git, LLVM, Flex/Bison, Doxygen, Linux
