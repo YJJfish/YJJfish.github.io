@@ -17,13 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Engineer at [Meta Reality Labs](https://about.meta.com/realitylabs/), working on GPU systems, real-time rendering infrastructure, and performance optimization for photorealistic avatars in VR.
+I am a Research Engineer at [Meta Reality Labs](https://about.meta.com/realitylabs/), working on GPU systems, real-time rendering, ML infrastructure, and performance optimization for photorealistic avatars in VR.
 
-My work focuses on C++/Vulkan rendering backends, GPU profiling and benchmarking, shader and render-graph optimization, developer tooling, and Python/C++ integration for neural rendering workflows. I am also interested in ML inference infrastructure, GPU runtime systems, and low-level performance engineering.
+My work focuses on C++/Vulkan graphics rendering, GPU programming and profiling, shader/kernel optimization, developer tooling, and ML infrastructure.
 
 I earned my master's degree in [Computer Vision](https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/) from [Carnegie Mellon University](https://www.cmu.edu/). Previously, I completed my bachelor's degree in [Computer Science and Technology](http://www.en.cs.zju.edu.cn/22145/list.htm) at [Zhejiang University](https://www.zju.edu.cn/english/), where I was advised by Prof. [Hongzhi Wu](http://hongzhiwu.com/).
-
-My interests include GPU systems, real-time rendering, computer graphics, 3D vision, neural rendering, and ML infrastructure.
 
 # 📖 Education
 
@@ -95,10 +93,11 @@ My interests include GPU systems, real-time rendering, computer graphics, 3D vis
         </p>
         <ul style="list-style-type:circle;">
             <li><b>Position</b>: Research Engineer</li>
-            <li>Working on GPU systems, real-time rendering infrastructure, and performance optimization for photorealistic avatars in VR.</li>
+            <li>Working on GPU systems, real-time rendering/inference infrastructure, and performance optimization for photorealistic avatars in VR.</li>
             <li>Optimized a Vulkan-based rendering backend with depth culling, tiled shading, render graph refactoring, async compute queues, and shader-level optimization.</li>
             <li>Built Python/C++ developer tooling for prototyping, profiling, benchmarking, and performance analysis of neural rendering workflows.</li>
             <li>Implemented CUDA-Vulkan interoperability for PyTorch CUDA tensors using external memory/semaphore mechanisms to reduce unnecessary CPU-GPU copies.</li>
+            <li>Optimized a Wan video generation inference runtime using PyTorch AOTInductor-exported C++ graphs, improving execution efficiency through KV caching, CUDA Graph capture/replay, and quantization.</li>
         </ul>
     </div>
 </div>
@@ -362,6 +361,6 @@ My interests include GPU systems, real-time rendering, computer graphics, 3D vis
 # 🔧 Skills
 
 - **Programming**: C/C++, Python, GLSL, JavaScript, Swift, Objective-C
-- **GPU, Graphics, and Systems**: Vulkan, CUDA, OpenGL, Metal, GPU profiling, shader optimization, render graphs, async compute, CUDA-Vulkan interop
-- **ML / CV / Runtime Infrastructure**: PyTorch, pybind11/nanobind, 3D Gaussian Splatting, neural rendering, OpenCV, model evaluation workflows
+- **GPU, Graphics, and Systems**: Vulkan, CUDA, OpenGL, Metal, GPU profiling, shader/kernel optimization, RenderDoc, Nsight, CUDA-Vulkan interop
+- **ML / CV / Runtime Infrastructure**: PyTorch, 3D Gaussian Splatting, TensorRT, neural rendering, OpenCV, model evaluation workflows
 - **Tools**: CMake, Git, LLVM, Flex/Bison, Doxygen, Linux
